@@ -21,5 +21,11 @@ public class Main {
             System.out.println(obf);
         }
 
+        System.out.println("==== Test 3: seller findAll ====");
+        list = sellerDao.findAll();
+        for (Seller obf : list) {
+            System.out.println(obf);
+        }
+
     }
 }
